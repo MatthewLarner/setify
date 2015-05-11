@@ -1,11 +1,25 @@
 {
   "name": "setify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set an input value without losing cursor position",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matt Larner <matt.larner.dev@gmail.com>",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewLarner/setify.git"
+  },
+  "keywords": [
+    "cursor",
+    "position",
+    "set",
+    "input"
+  ],
+  "bugs": {
+    "url": "https://github.com/matthewLarner/setify/issues"
+  },
+  "homepage": "https://github.com/matthewLarner/setify"
 }
