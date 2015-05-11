@@ -6,10 +6,11 @@ module.exports = function(element, value){
                 element === document.activeElement;
 
     if (canSet) {
-        var position = element.selectionStart;
+        var start = element.selectionStart,
+            end = element.selectionEnd;
 
         element.value = value;
-        element.setSelectionRange(position, position);
+        element.setSelectionRange(start, end);
     } else {
         element.value = value;
     }
