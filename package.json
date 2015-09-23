@@ -1,6 +1,6 @@
 {
   "name": "setify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Set an input value without losing cursor position",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthewLarner/setify.git"
+    "url": "https://github.com/MatthewLarner/setify.git"
   },
   "keywords": [
     "cursor",
@@ -19,7 +19,10 @@
     "input"
   ],
   "bugs": {
-    "url": "https://github.com/matthewLarner/setify/issues"
+    "url": "https://github.com/MatthewLarner/setify/issues"
   },
-  "homepage": "https://github.com/matthewLarner/setify"
+  "homepage": "https://github.com/MatthewLarner/setify",
+  "dependencies": {
+    "natural-selection": "^1.0.0"
+  }
 }
