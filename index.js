@@ -1,9 +1,7 @@
-var unsupportedTypes = ['number', 'email', 'time', 'color', 'month', 'range', 'date'];
+var naturalSelection = require('natural-selection');
 
 module.exports = function(element, value){
-    var canSet = element.setSelectionRange &&
-                !~unsupportedTypes.indexOf(element.type) &&
-                element === document.activeElement;
+    var canSet = naturalSelection(element) && element === document.activeElement;
 
     if (canSet) {
         var start = element.selectionStart,
