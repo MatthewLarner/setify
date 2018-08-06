@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/MatthewLarner/setify",
   "dependencies": {
-    "natural-selection": "^1.0.0"
+    "natural-selection": "^1.0.1"
   }
 }
